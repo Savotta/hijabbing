@@ -76,7 +76,7 @@
 	sprite_acc = /datum/sprite_accessory/underwear/braies
 
 /obj/item/undies/loinclothunder
-	name = "small loincloth"
+	name = "Small Loincloth"
 	desc = "A tight loincloth adjusted to fit like underwear, for those who like a breeze."
 	icon_state = "loinclothunder"
 	covers_rear = FALSE
@@ -84,13 +84,13 @@
 // Craft
 
 /datum/crafting_recipe/roguetown/sewing/loinclothunder
-	name = "small loincloth (1 cloth)"
+	name = "Small Loincloth (1 cloth)"
 	result = list(/obj/item/undies/loinclothunder)
 	reqs = list(/obj/item/natural/cloth = 1)
 	craftdiff = 0
 
 /datum/crafting_recipe/roguetown/sewing/loinclothadjusttwo
-	name = "Adjust small loincloth to be looser (trousers)"
+	name = "Adjust Small Loincloth to be looser (trousers)"
 	result = list(/obj/item/clothing/under/roguetown/loincloth)
 	reqs = list(/obj/item/undies/loinclothunder)
 	craftdiff = 0

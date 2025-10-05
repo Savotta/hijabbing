@@ -106,7 +106,7 @@
 	return "braies"
 
 /datum/sprite_accessory/underwear/loinclothunder
-	name = "small loincloth"
+	name = "Small Loincloth"
 	icon_state = "loinclothunder"
 	underwear_type = /obj/item/undies/loinclothunder
 
