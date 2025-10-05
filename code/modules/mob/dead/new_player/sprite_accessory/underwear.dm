@@ -108,7 +108,7 @@
 /datum/sprite_accessory/underwear/loinclothunder
 	name = "small loincloth"
 	icon_state = "loinclothunder"
-	underwear_type = /obj/item/undies/loincloth
+	underwear_type = /obj/item/undies/loinclothunder
 
 /datum/sprite_accessory/legwear
 	abstract_type = /datum/sprite_accessory/legwear
