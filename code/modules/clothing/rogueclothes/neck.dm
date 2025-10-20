@@ -424,7 +424,7 @@
 	possible_item_intents = list(/datum/intent/use, /datum/intent/special/magicarc)
 
 /obj/item/clothing/neck/roguetown/psicross/holysee
-	name = "Holy See amulet"
+	name = "see amulet"
 	desc = "An amulet, typically worn by the Holy See's own influential figures. Stalwart for centuries against the darkness. \
 	Both a mark of station and grace."
 	icon_state = "undivided"
