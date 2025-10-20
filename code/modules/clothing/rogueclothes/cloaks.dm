@@ -1141,7 +1141,7 @@
 	sellprice = 50
 	nodismemsleeves = TRUE
 
-/obj/item/clothing/cloak/holysee
+/obj/item/clothing/cloak/holysee_mundane
 	name = "see cloak"
 	desc = "A symbol of the See. The last daes are upon us, lamb. Do you yet cling to hope?"
 	icon_state = "seecloak"

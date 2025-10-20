@@ -2,6 +2,28 @@
 	name = null
 	associated_faith = /datum/faith/divine
 
+//What're you? A lunatic. That's all you've ever been.
+//No miracles. No care. Suffer, as the Ten do.
+/datum/patron/divine/undivided
+	name = "Undivided"
+	domain = "Absolutely nothing."
+	desc = "A misguided attempt, of aeons past, to worship all Ten of the Pantheon. The council did not care for this. To split one's faith is to split their mind. \
+	As such, those who'd adhered to this doctrine have long since gone mad. Or, perhaps, have faith in a world that has since left them behind."
+	worshippers = "Lunatics."
+	confess_lines = list(
+		"THE TEN SHALL SAVE ME, I KNOW IT!",
+		"I DREAM OF A BETTER WORLD!",
+		"FORGIVE ME!",
+	)
+	storyteller = null
+	disabled_patron = TRUE//Another selection, m'lord.
+
+//Under no circumstance do we care.
+/datum/patron/divine/undivided/hear_prayer(mob/living/follower)
+	to_chat(follower, span_danger("The Ten have no pity for once such as you."))
+	return FALSE//Borderline apostasy.
+
+//End of absurdity. Start of normalcy.
 /datum/patron/divine/astrata
 	name = "Astrata"
 	domain = "The Day, The Sun, Order"
