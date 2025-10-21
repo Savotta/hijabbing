@@ -1141,7 +1141,7 @@
 	sellprice = 50
 	nodismemsleeves = TRUE
 
-/obj/item/clothing/cloak/holysee_mundane
+/obj/item/clothing/cloak/undivided
 	name = "see cloak"
 	desc = "A symbol of the See. The last daes are upon us, lamb. Do you yet cling to hope?"
 	icon_state = "seecloak"
@@ -1149,11 +1149,11 @@
 	alternate_worn_layer = CLOAK_BEHIND_LAYER
 	slot_flags = ITEM_SLOT_BACK_R|ITEM_SLOT_CLOAK
 
-/obj/item/clothing/cloak/holysee/ComponentInitialize()
+/obj/item/clothing/cloak/undivided/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
 
-/obj/item/clothing/cloak/holysee/dropped(mob/living/carbon/human/user)
+/obj/item/clothing/cloak/undivided/dropped(mob/living/carbon/human/user)
 	..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	if(STR)

@@ -49,8 +49,7 @@
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_cloaks.dmi'
 	sleevetype = "shirt"
 
-
-/obj/item/clothing/cloak/templar/holysee
+/obj/item/clothing/cloak/templar/undivided
 	name = "see tabard"
 	desc = "A symbol of the See. The last daes are upon us, lamb. Do you yet cling to hope?"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'

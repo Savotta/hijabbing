@@ -297,7 +297,7 @@
 	if (!(istype(H.patron, /datum/patron/divine/astrata)))
 		to_chat(H, span_warning("I've been blessed by Astrata - She guides my way, as I guide Her flock."))
 		H.set_patron(/datum/patron/divine/astrata)
-	neck = /obj/item/clothing/neck/roguetown/psicross/holysee
+	neck = /obj/item/clothing/neck/roguetown/psicross/undivided
 	shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/priest
 	pants = /obj/item/clothing/under/roguetown/tights/black
 	shoes = /obj/item/clothing/shoes/roguetown/shortboots
