@@ -10306,12 +10306,6 @@
 /obj/machinery/light/rogue/wallfire/candle/floorcandle/alt,
 /turf/open/floor/rogue/churchbrick,
 /area/rogue/indoors/town/church/chapel)
-"dqZ" = (
-/obj/structure/stairs/stone{
-	dir = 4
-	},
-/turf/open/floor/rogue/grass,
-/area/rogue/outdoors/woodsrat/north)
 "drd" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/mudcrab,
 /turf/open/floor/rogue/dirt,
@@ -27212,6 +27206,8 @@
 /obj/item/clothing/head/roguetown/helmet/heavy/blkknight,
 /obj/item/clothing/suit/roguetown/armor/plate/blkknight,
 /obj/structure/fireaxecabinet/south,
+/obj/item/clothing/shoes/roguetown/boots/armor/blkknight,
+/obj/item/clothing/under/roguetown/platelegs/blacksteel,
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor/rockhill)
 "iKV" = (
@@ -33951,7 +33947,9 @@
 "lbB" = (
 /obj/structure/closet/crate/roguecloset/lord,
 /obj/item/scomstone,
-/obj/item/rogueweapon/greatsword,
+/obj/item/rogueweapon/greatsword{
+	name = "ducal greatsword"
+	},
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor/rockhill)
 "lbC" = (
@@ -365746,7 +365744,7 @@ rrT
 cjH
 cjH
 cjH
-dqZ
+vLG
 kKp
 kKp
 kKp
@@ -365780,7 +365778,7 @@ cjH
 lkU
 lkU
 lkU
-lkU
+oqx
 lkU
 lkU
 lkU
@@ -366178,7 +366176,7 @@ rrT
 rrT
 cjH
 cjH
-cjH
+oqx
 lkU
 cjH
 cjH
@@ -366610,7 +366608,7 @@ rrT
 rrT
 cjH
 auv
-cjH
+oqx
 cjH
 auv
 lkU
@@ -367042,7 +367040,7 @@ rrT
 rrT
 cjH
 cjH
-lkU
+oqx
 lkU
 lkU
 lkU
@@ -367907,10 +367905,10 @@ rrT
 rrT
 lkU
 cjH
-cjH
+oqx
 lkU
 cjH
-lkU
+oqx
 lkU
 lkU
 cjH
@@ -368772,7 +368770,7 @@ rrT
 lkU
 cjH
 lkU
-cjH
+oqx
 lkU
 auv
 lkU
@@ -370510,7 +370508,7 @@ auv
 lkU
 lkU
 mlY
-ixt
+vXq
 mlY
 cjH
 cjH
