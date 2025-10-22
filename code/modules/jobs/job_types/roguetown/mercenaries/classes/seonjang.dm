@@ -24,7 +24,8 @@
 	backr = /obj/item/storage/backpack/rogue/satchel
 	backpack_contents = list(
 		/obj/item/roguekey/mercenary,
-		/obj/item/flashlight/flare/torch,
+		/obj/item/storage/belt/rogue/pouch/coins/rich,
+		/obj/item/rogueweapon/huntingknife/idagger/navaja,
 		/obj/item/flashlight/flare/torch/lantern,
 		)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
@@ -40,11 +41,11 @@
 	H.adjust_blindness(-3)
 
 	if(should_wear_masc_clothes(H))
-		shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/eastshirt1
+		shirt = shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/easttats
 		cloak = /obj/item/clothing/cloak/eastcloak1
 		pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/eastpants1
 		gloves = /obj/item/clothing/gloves/roguetown/eastgloves2
-		armor = /obj/item/clothing/suit/roguetown/shirt/undershirt/easttats
+		armor = /obj/item/clothing/suit/roguetown/shirt/undershirt/eastshirt1
 		shoes = /obj/item/clothing/shoes/roguetown/boots
 		H.change_stat(STATKEY_WIL, 1)
 		H.change_stat(STATKEY_CON, 1) //to compensate for the permanent lack of armor
