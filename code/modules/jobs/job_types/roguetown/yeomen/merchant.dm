@@ -20,6 +20,8 @@
 	round_contrib_points = 3
 	cmode_music = 'sound/music/combat_noble.ogg'
 
+	virtue_restrictions = list(/datum/virtue/utility/blacksmith)
+
 	job_traits = list(TRAIT_SEEPRICES, TRAIT_CICERONE)
 
 	advclass_cat_rolls = list(CTAG_MERCH = 2)
@@ -83,4 +85,3 @@
 		shoes = /obj/item/clothing/shoes/roguetown/gladiator
 	if(H.mind)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/appraise/secular)
-
