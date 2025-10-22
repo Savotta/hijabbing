@@ -92,7 +92,7 @@
 /datum/crafting_recipe/roguetown/sewing/loinclothadjusttwo
 	name = "Adjust Small Loincloth to be looser (trousers)"
 	result = list(/obj/item/clothing/under/roguetown/loincloth)
-	reqs = list(/obj/item/undies/loinclothunder)
+	reqs = list(/obj/item/undies/loinclothunder = 1)
 	craftdiff = 0
 
 /datum/crafting_recipe/roguetown/sewing/undies
