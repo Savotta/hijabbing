@@ -56160,15 +56160,13 @@
 /area/rogue/indoors/town/church)
 "sBZ" = (
 /obj/structure/fluff/nest,
-/mob/living/simple_animal/pet/cat/rogue/archibald{
-	icon = 'icons/roguetown/mob/monster/bigrat.dmi';
-	icon_state = "rat";
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/mob/living/simple_animal/pet/cat/rogue/rat{
 	pixel_x = -16;
-	dir = 4;
-	pixel_y = -6
+	pixel_y = -6;
+	dir = 4
 	},
-/obj/item/reagent_containers/food/snacks/grown/wheat,
-/obj/item/reagent_containers/food/snacks/grown/wheat,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement/keep)
 "sCc" = (
