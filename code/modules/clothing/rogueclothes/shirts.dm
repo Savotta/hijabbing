@@ -666,11 +666,11 @@
 	r_sleeve_status = SLEEVE_NORMAL
 	l_sleeve_status = SLEEVE_NORMAL
 	allowed_race = NON_DWARVEN_RACE_TYPES
-	max_integrity = 600 //Bad armor protection and very basic crit protection, but incredibly hard to break completely
+	max_integrity = 300 //Bad armor protection and very basic crit protection, but hard to break completely
 	flags_inv = null //free the breast
 	surgery_cover = FALSE // cauterize and surgery through it.
-	var/repair_amount = 6 //The amount of integrity the tattoos will repair themselves
-	var/repair_time = 20 SECONDS //The amount of time between each repair
+	var/repair_amount = 20 //The amount of integrity the tattoos will repair themselves
+	var/repair_time = 60 SECONDS //The amount of time between each repair
 	var/last_repair //last time the tattoos got repaired
 
 /obj/item/clothing/suit/roguetown/shirt/undershirt/easttats/Initialize(mapload)
