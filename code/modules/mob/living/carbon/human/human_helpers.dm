@@ -131,10 +131,9 @@
 		used_str = get_str_arms(used_hand)
 
 	if(used_str >= 11)
-		damage = max(damage + (damage * ((used_str - 10) * 0.3)), 1)
-
+		damage = max(damage * (1 + ((used_str - 10) * 0.03)), 1)
 	if(used_str <= 9)
-		damage = max(damage - (damage * ((10 - used_str) * 0.1)), 1)
+		damage = max(damage * (1 - ((10 - used_str) * 0.05)), 1)
 
 	if(istype(G, /obj/item/clothing/gloves/roguetown))
 		var/obj/item/clothing/gloves/roguetown/GL = G
