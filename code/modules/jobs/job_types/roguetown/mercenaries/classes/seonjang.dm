@@ -41,7 +41,7 @@
 	H.adjust_blindness(-3)
 
 	if(should_wear_masc_clothes(H))
-		shirt = shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/easttats
+		shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/easttats
 		cloak = /obj/item/clothing/cloak/eastcloak1
 		pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/eastpants1
 		gloves = /obj/item/clothing/gloves/roguetown/eastgloves2
