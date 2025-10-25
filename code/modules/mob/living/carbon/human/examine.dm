@@ -69,6 +69,7 @@
 		if(SSticker.regentmob == src)
 			used_title = "[used_title]" + " Regent"
 		var/display_as_wanderer = FALSE
+		var/is_returning = FALSE
 		if(observer_privilege)
 			used_name = real_name
 		if(migrant_type)
@@ -78,10 +79,12 @@
 			var/datum/job/J = SSjob.GetJob(job)
 			if(!J || J.wanderer_examine)
 				display_as_wanderer = TRUE
+			if(islatejoin)
+				is_returning = TRUE
 			if(display_as_wanderer)
 				. = list(span_info("ø ------------ ø\nThis is <EM>[used_name]</EM>, the wandering [race_name]."))
 			else if(used_title)
-				. = list(span_info("ø ------------ ø\nThis is <EM>[used_name]</EM>, the [race_name] [used_title]."))
+				. = list(span_info("ø ------------ ø\nThis is <EM>[used_name]</EM>, the [is_returning ? "returning " : ""][race_name] [used_title]."))
 		else
 			. = list(span_info("ø ------------ ø\nThis is <EM>[used_name]</EM>, the [race_name]."))
 
