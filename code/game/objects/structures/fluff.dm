@@ -532,7 +532,6 @@
 
 /obj/structure/fluff/clock/attack_right(mob/user)
 	handle_special_items_retrieval(user, src)
-	return
 
 /obj/structure/fluff/clock/examine(mob/user)
 	. = ..()
