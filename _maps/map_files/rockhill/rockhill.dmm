@@ -50724,9 +50724,6 @@
 	},
 /turf/open/transparent/openspace,
 /area/rogue/indoors/town/Academy)
-"qJL" = (
-/turf/closed,
-/area/rogue/indoors/shelter/mountains)
 "qJN" = (
 /obj/structure/chair/bench,
 /obj/structure/fluff/walldeco/psybanner{
@@ -313765,9 +313762,9 @@ tmH
 tmH
 vIa
 vIa
-qJL
-qJL
-qJL
+vIa
+vIa
+vIa
 vIa
 vIa
 vIa
@@ -314197,9 +314194,9 @@ tmH
 tmH
 vIa
 vIa
-qJL
-qJL
-qJL
+vIa
+vIa
+vIa
 vIa
 vIa
 vIa
@@ -314629,9 +314626,9 @@ tmH
 tmH
 vIa
 vIa
-qJL
-qJL
-qJL
+vIa
+vIa
+vIa
 vIa
 vIa
 vIa
