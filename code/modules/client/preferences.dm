@@ -135,6 +135,7 @@ GLOBAL_LIST_EMPTY(chosen_names)
 	var/masked_examine = FALSE
 	var/mute_animal_emotes = FALSE
 	var/autoconsume = FALSE
+	var/runmode = FALSE
 
 	var/lastclass
 
