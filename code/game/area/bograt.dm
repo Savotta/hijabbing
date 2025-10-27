@@ -11,7 +11,8 @@
 	droning_sound = 'sound/music/area/bog.ogg'
 	droning_sound_dusk = null
 	droning_sound_night = null
-	ambush_times = list("night","dawn","dusk","day")	ambush_mobs = list(
+	ambush_times = list("night","dawn","dusk","day")	
+	ambush_mobs = list(
 		/mob/living/carbon/human/species/skeleton/npc/ambush = 30,
 		/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 60,
 		/mob/living/simple_animal/hostile/retaliate/rogue/spider/rock = 30,
@@ -64,7 +65,7 @@
 		new /datum/ambush_config/bog_guard_deserters = 15,
 		new /datum/ambush_config/bog_guard_deserters/hard = 2,
 		new /datum/ambush_config/mirespiders_ambush = 30,
-		new /datum/ambush_config/mirespiders_crawlers = 15
+		new /datum/ambush_config/mirespiders_crawlers = 15,
 		/mob/living/simple_animal/hostile/retaliate/rogue/mossback = 10,)	
 
 /area/rogue/outdoors/bograt/west
