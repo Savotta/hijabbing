@@ -48,8 +48,6 @@
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.grant_language(/datum/language/kazengunese)
 	H.merctype = 9
-	if(should_wear_masc_clothes(H))
-		armor = /obj/item/clothing/suit/roguetown/shirt/undershirt/easttats
 
 /datum/advclass/mercenary/rumaclan/sasu
 	name = "Ruma Clan Sasu"
