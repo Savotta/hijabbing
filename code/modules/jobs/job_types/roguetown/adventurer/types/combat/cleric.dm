@@ -241,7 +241,7 @@
 		if("Axe")
 			H.adjust_skillrank(/datum/skill/combat/axes, 3, TRUE)
 			if(HAS_TRAIT(H, TRAIT_PSYDONIAN_GRIT))			
-				beltr = /obj/item/rogueweapon/stoneaxe/woodcut/silver
+				beltr = /obj/item/rogueweapon/stoneaxe/battle/psyaxe
 			else
 				beltr = /obj/item/rogueweapon/stoneaxe/woodcut
 	H.set_blindness(0)
