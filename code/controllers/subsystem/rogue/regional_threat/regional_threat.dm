@@ -115,7 +115,7 @@ SUBSYSTEM_DEF(regionthreat)
 			_highpop_tick = 1),
 		new /datum/threat_region(
 			_region_name = THREAT_REGION_ROCKHILL_BOG_WEST,
-			_latent_ambush = DANGER_DANGEROUS_LIMIT,
+			_latent_ambush = DANGER_MODERATE_LIMIT,
 			_min_ambush = DANGER_SAFE_FLOOR, 
 			_max_ambush = DANGER_DIRE_LIMIT,
 			_fixed_ambush = FALSE,
@@ -123,7 +123,7 @@ SUBSYSTEM_DEF(regionthreat)
 			_highpop_tick = 1),
 		new /datum/threat_region(
 			_region_name = THREAT_REGION_ROCKHILL_BOG_SOUTH,
-			_latent_ambush = DANGER_DANGEROUS_LIMIT,
+			_latent_ambush = DANGER_MODERATE_LIMIT,
 			_min_ambush = DANGER_SAFE_FLOOR, 
 			_max_ambush = DANGER_DIRE_LIMIT,
 			_fixed_ambush = FALSE,
@@ -147,7 +147,7 @@ SUBSYSTEM_DEF(regionthreat)
 			_highpop_tick = 1),
 		new /datum/threat_region(
 			_region_name = THREAT_REGION_ROCKHILL_WOODS_SOUTH,
-			_latent_ambush = DANGER_DANGEROUS_LIMIT,
+			_latent_ambush = DANGER_MODERATE_LIMIT,
 			_min_ambush = DANGER_SAFE_FLOOR,
 			_max_ambush = DANGER_DIRE_LIMIT,
 			_fixed_ambush = FALSE,
