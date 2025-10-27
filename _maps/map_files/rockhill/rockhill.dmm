@@ -62721,7 +62721,7 @@
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
 "uQm" = (
-/turf/closed/wall/mineral/rogue/stone/window/moss/unbreakable,
+/turf/closed/wall/mineral/rogue/stone/window/moss,
 /area/rogue/indoors)
 "uQo" = (
 /obj/structure/fluff/railing/border{
@@ -70196,11 +70196,6 @@
 /obj/structure/flora/roguegrass/water/reeds,
 /turf/open/water/swamp/deep,
 /area/rogue/outdoors/bograt/west)
-"xnH" = (
-/obj/structure/flora/newtree,
-/obj/structure/vine,
-/turf/open/floor/rogue/grass,
-/area/rogue/outdoors/rtfield/rockhill)
 "xnI" = (
 /obj/structure/roguemachine/mail/l{
 	mailtag = "Inquisition"
@@ -230452,10 +230447,10 @@ sYx
 sYx
 sYx
 qrc
-wLx
-wLx
-wLx
-wLx
+uWK
+uWK
+uWK
+uWK
 uWK
 qrc
 uWK
@@ -266117,7 +266112,7 @@ qvR
 uaL
 wSn
 wSn
-wSn
+qvR
 hVU
 xvN
 wSn
@@ -266548,7 +266543,7 @@ fxx
 xqL
 noV
 wSn
-xqL
+aPR
 wSn
 aFF
 hVU
@@ -266980,7 +266975,7 @@ fxx
 wSn
 noV
 cTH
-wSn
+qvR
 wSn
 uaL
 spp
@@ -267846,10 +267841,10 @@ uaL
 xqL
 wSn
 kTN
+mXL
 qvR
 qvR
-qvR
-qvR
+aPR
 ryI
 uQm
 sOu
@@ -268277,11 +268272,11 @@ xqL
 mXL
 uaL
 uaL
-xnH
-qvR
+spp
+uHW
 xvN
-wSn
-aPR
+uaL
+uaL
 tMn
 hHF
 obf
@@ -268707,11 +268702,11 @@ fTe
 sjP
 uaL
 uaL
-wSn
 uaL
-qvR
-uHW
-wSn
+uaL
+uaL
+uaL
+uaL
 uaL
 noV
 skP
