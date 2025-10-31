@@ -658,3 +658,8 @@
 	name = "disarm"
 	desc = ""
 	icon_state = "intake"
+
+/datum/intent/grab/scruff
+	name = "scruff"
+	desc = ""
+	icon_state = "inscruff"
