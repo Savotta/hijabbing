@@ -268,11 +268,11 @@
 											span_userdanger("You go limp as your scruff is twisted!"), span_hear("I hear aggressive shuffling!"), COMBAT_MESSAGE_RANGE, user)
 									to_chat(user, span_warning("You twist [H]'s scruff, causing them to go limp!"))
 									log_combat(user, H, "scruffed")
-									user.changeNext_move(CLICK_CD_GRABBING) // cooldown
+									user.changeNext_move(CLICK_CD_RESIST) // higher cooldown, 2 seconds
 								else
 									to_chat(user, span_warning("I need to be behind [H] to scruff them!"))
 							else
-								to_chat(user, span_warning("Scruffing doesn't work on non-adults!"))
+								to_chat(user, span_warning("Scruffing doesn't work on older adults!"))
 						else
 							to_chat(user, span_warning("[H]'s neck is covered!"))
 		if(/datum/intent/grab/twist)
