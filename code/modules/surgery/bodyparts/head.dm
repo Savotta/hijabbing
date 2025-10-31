@@ -70,8 +70,7 @@
 		if(BODY_ZONE_PRECISE_MOUTH)
 			return list(/datum/intent/grab/move, /datum/intent/grab/twist, /datum/intent/grab/smash)
 		if(BODY_ZONE_PRECISE_NECK)
-			var/mob/living/carbon/human/H = owner?.owner
-			if(ishuman(H) && (istabaxi(H) || islupian(H)))
+			if(istabaxi(owner) || islupian(owner))
 				return list(/datum/intent/grab/move, /datum/intent/grab/choke, /datum/intent/grab/hostage, /datum/intent/grab/scruff)
 			else
 				return list(/datum/intent/grab/move, /datum/intent/grab/choke, /datum/intent/grab/hostage)
